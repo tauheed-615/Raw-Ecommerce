@@ -1,172 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Commerce Project</title>
+    <title>The Sufism</title>
+    <meta name="description" content="This is the description" />
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
+    <script src="index1.js" async></script>
   </head>
   <body>
-    <div id="EcommerceContainer">
-      <header>
-        <ul class="header">
-          <li><a href="./index.html">HOME</a></li>
-          <li><a href="#">STORE</a></li>
-          <li><a href="./about.html">ABOUT</a></li>
-          <a href="#cart" class="cart-holder"
-            >cart<span class="cart-number">0</span></a
-          >
-        </ul>
-        <h1>The Sufism</h1>
-      </header>
-      <section id="music" class="container">
-        <h2>Music</h2>
-        <div id="music-content">
-          <div id="album1">
-            <h3>Album 1</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://plus.unsplash.com/premium_photo-1664048712492-9d395c204e37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>12.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div id="album2">
-            <h3>Album 2</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>14.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div id="album3">
-            <h3>Album 3</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>9.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div id="album4">
-            <h3>Album 4</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>19.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="merch" class="container">
-        <h2>MERCH</h2>
-        <div id="merch-content">
-          <div id="t-shirt">
-            <h3>T-Shirt</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://images.unsplash.com/photo-1622445275649-b1922cc3e837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRzaGlydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>19.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-          <div id="coffee-cup">
-            <h3>Coffee Cup</h3>
-            <div class="image-container">
-              <img
-                class="prod-images"
-                src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmUlMjBjdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-            </div>
-            <div class="prod-details">
-              <span>$<span>6.99</span></span>
-              <button class="shop-item-button" type="button">
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="cart" class="container">
-        <h2>CART</h2>
-        <button class="cancel">X</button>
-        <div class="cart-row cart-header">
-          <span class="cart-item cart-column">ITEM</span>
-          <span class="cart-price cart-column">PRICE</span>
-          <span class="cart-quantity cart-column">QUANTITY</span>
-        </div>
-        <div class="cart-items"></div>
-        <div class="cart-total">
-          <span>
-            <span class="total-title"> <strong>Total</strong> </span>
-            $<span id="total-value">0</span>
-          </span>
-        </div>
-        <button class="purchase-btn" type="button">PURCHASE</button>
-      </section>
-
-      <button class="cart-btn-bottom">
-        <a href="#cart" class="cart-bottom">See the cart</a>
-      </button>
-    </div>
-    <!-- Toggle notification -->
-    <div id="container"></div>
-    <footer>
-      <div class="footer-title">The Sufism</div>
-      <div class="footer-icons">
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">The Sufism</h1>
+      <div class="container">
+        <button type="button" class="btn btn-header">
+          Get our Latest Album
+        </button>
+      </div>
+      <button type="button" class="btn btn-header btn-play">&#9658;</button>
+    </header>
+    <section class="content-section container">
+      <h2 class="section-header">TOURS</h2>
+      <div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">JUL 16</span>
+          <span class="tour-item tour-city">DETROIT, MI</span>
+          <span class="tour-item tour-arena">DTE ENERGY MUSIC THEATRE</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">JUL 19</span>
+          <span class="tour-item tour-city">TORONTO, ON</span>
+          <span class="tour-item tour-arena">BUDWEISER STAGE</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">JUL 22</span>
+          <span class="tour-item tour-city">BRISTOW, VA</span>
+          <span class="tour-item tour-arena">JIGGY LUBE LIVE</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">JUL 29</span>
+          <span class="tour-item tour-city">PHOENIX, AZ</span>
+          <span class="tour-item tour-arena">AK-CHIN PAVILION</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">AUG 2</span>
+          <span class="tour-item tour-city">LAS VEGAS, NV</span>
+          <span class="tour-item tour-arena">T-MOBILE ARENA</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+        <div class="tour-row">
+          <span class="tour-item tour-date">AUG 7</span>
+          <span class="tour-item tour-city">CONCORD, CA</span>
+          <span class="tour-item tour-arena">CONCORD PAVILION</span>
+          <button type="button" class="tour-item tour-btn btn btn-primary">
+            BUY TICKETS
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
           <li>
-            <a href="https://www.youtube.com">
-              <img src="./img/6260efc8fc9a9002669d2f4ad9956cc0.jpg" alt="" />
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="Images/YouTube Logo.png" />
             </a>
           </li>
           <li>
-            <a href="https://spotify.com">
-              <img src="./img/Spotify Logo.png" alt="" />
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="Images/Spotify Logo.png" />
             </a>
           </li>
           <li>
-            <a href="https://facebook.com">
-              <img src="./img/Facebook Logo.png" alt="" />
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="Images/Facebook Logo.png" />
             </a>
           </li>
         </ul>
