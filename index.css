@@ -396,7 +396,6 @@ header ul a{
 }
 #cart{
     margin:0px;
-    display: none;
     position:fixed;
     top:50px;
     height: 95%;
